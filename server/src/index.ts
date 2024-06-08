@@ -12,3 +12,5 @@ const mongoURI: string =
 mongoose.connect(mongoURI)
 .then(() => console.log("Connected to MongoDB"))
 .catch((err) => console.error("Failed to connect to MongoDB:", err));
+
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
