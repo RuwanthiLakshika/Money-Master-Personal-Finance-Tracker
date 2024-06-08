@@ -1,5 +1,4 @@
-# Finance-Tracker-App-with-User-Management    
-(Ongoing)     
+# Finance-Tracker-App-with-User-Management (Ongoing)     
 
 Money Tracker: Personal Financial tracker - MERN project       
 To run ( in VS terminal ) :         
