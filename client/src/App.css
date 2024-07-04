@@ -4,9 +4,10 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f7fa;
+  background: linear-gradient(to bottom right, #d1fbea, #ffffff);
   color: #333;
 }
+
 
 .app-container {
   width: 100vw;
