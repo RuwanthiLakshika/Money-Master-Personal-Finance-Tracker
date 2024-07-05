@@ -16,7 +16,7 @@ router.get("/getAllByUserID/:userId", async (req: Request, res: Response) => {
   }
 });
 
-router.post("/", async (req: Request, res: Response) => {
+router.post("/record", async (req: Request, res: Response) => {
   try {
     const newRecordBody = req.body;
     const newRecord = new FinancialRecordModel(newRecordBody);
